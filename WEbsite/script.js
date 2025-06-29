@@ -11,6 +11,13 @@
 document.getElementById("my").textContent = `Hello there`;
 document.getElementById("my0").textContent = `this is a paragraph`;
  
+let Name = `Snehal Singh Bisht`;
+let age1 = 20;
+let isStudent = true;
+
+document.getElementById("p1").textContent = `Your name is ${Name}`;
+document.getElementById("p2").textContent = `Your age is ${age1}`;
+document.getElementById("p3").textContent = `Are you a studnet: ${isStudent}`;
 
 
 
