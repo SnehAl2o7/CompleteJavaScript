@@ -1,0 +1,20 @@
+{
+  "name": "completejavascript",
+  "version": "1.0.0",
+  "description": "Starting the basic learning of javascript for building websites and all",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnehAl2o7/CompleteJavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnehAl2o7/CompleteJavaScript/issues"
+  },
+  "homepage": "https://github.com/SnehAl2o7/CompleteJavaScript#readme"
+}
