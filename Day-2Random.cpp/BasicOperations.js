@@ -71,6 +71,8 @@ console.log(
     username.padEnd(13,"#")
 );
  // string slicing 
+ // can be done positively and negatively 
+ // and work fine
 
  const fullName = "Snehal";
  console.log(fullName.slice(2,4));
