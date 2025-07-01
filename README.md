@@ -1,4 +1,4 @@
-# 🚀 JavaScript Mastery Repository
+#  JavaScript Mastery Repository
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![JavaScript](https://img.shields.io/badge/Language-JavaScript-blue.svg)](#)
@@ -8,7 +8,7 @@ Welcome to the **JavaScript Mastery Repository** – your all-in-one resource to
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```bash
 .
