@@ -40,3 +40,13 @@ console.log(maximum);
 
 // rest parameter = (...rest) it bundle the spread elements into a bundle
 
+function openfridge(...foods){
+    console.log(foods);
+}
+
+const food1 = "pizza";
+const food2 = "hamburger";
+const food3 = "hotdog";
+const food4 = "sushi";
+
+openfridge(food1,food2,food3,food4, "paratha");
