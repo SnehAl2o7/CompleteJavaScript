@@ -59,3 +59,21 @@ function cube(element){
     return Math.pow(element,3);
 }
 
+
+// .filter() = create a new array by filtering out elements.
+
+
+let array = [1,2,3,4,5,6,7,8];
+let evenNum = array.filter(isEven);
+let oddNum = array.filter(isOdd);
+
+console.log(evenNum);
+console.log(oddNum);
+
+function isEven(element){
+    return element%2 === 0;
+}
+
+function isOdd(element){
+    return element%2 === 1;
+}
