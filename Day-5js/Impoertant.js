@@ -68,7 +68,7 @@ let evenNum = array.filter(isEven);
 let oddNum = array.filter(isOdd);
 
 console.log(evenNum);
-console.log(oddNum);
+console.log(oddNum);      
 
 function isEven(element){
     return element%2 === 0;
@@ -77,3 +77,39 @@ function isEven(element){
 function isOdd(element){
     return element%2 === 1;
 }
+
+//. reduce() = reduce the elements of an array to a single value
+
+
+const prices = [5, 34, 45, 14,12,43];
+
+const total = prices.reduce(sum);
+
+console.log(total.toFixed(2));
+
+function sum(a, b){
+    return Math.max(a,b);
+}
+
+// function declaration = define a reusable block
+
+function hello(){
+    console.log(`Hello`);
+}
+
+// function expression = a way to define a function as values or values.
+
+setTimeout(function(){
+    console.log("Hello");
+},3000);
+
+
+// using other methods also 
+const how = [1,2,3,4,5,6];
+
+const sq = how.map(function(element){
+    return Math.pow(element,2);
+});
+
+console.log(sq);
+
