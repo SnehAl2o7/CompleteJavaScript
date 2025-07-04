@@ -13,3 +13,27 @@ const table = num.map((element) => {
 })
 
 console.log(table);
+
+
+
+// object = a collection of related properties and / or methods
+// can represent real world objects  (people, products, place)
+//              object = {key: value, function()}
+
+const person = {
+    firstName: "Snehal",
+    lastName: "Bisht",
+    age: 30,
+    isEmployed: true,
+    sayHello: function(){
+        console.log(`Hi, I am Vansh!`)
+    },
+    whatage: () => {
+        console.log(`Your age is ${person.age} years old.`)
+    }
+}
+
+console.log(person.age);
+person.sayHello();
+person.whatage();
+
