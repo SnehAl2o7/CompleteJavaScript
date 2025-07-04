@@ -24,15 +24,20 @@ function goodbye(){
 // forEach() = method used to iterate over the elements of an array and apply
 // specified funcs
 
-let numbers = [1,2,3,4];
+let numbers = [1,2,3,4,5];
 
- numbers.forEach(display);
+ numbers.forEach(double);
 
- function double(element , index, array){
-    array[Index] = element * 2;
+ function display(element){
+    console.log(element);
  }
 
- function triple(elemenet, index, array){
-    array[index] = element * 3
-; }
+ function double(element , index, array){
+    array[index] = element * 2;
+ }
 
+//  function triple(element, index, array){
+//     array[index] = element * 3; 
+// }
+
+console.log(double);
