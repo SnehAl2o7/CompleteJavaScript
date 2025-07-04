@@ -26,7 +26,7 @@ function goodbye(){
 
 let numbers = [1,2,3,4,5];
 
- numbers.forEach(double);
+numbers.forEach(display);
 
  function display(element){
     console.log(element);
@@ -36,8 +36,26 @@ let numbers = [1,2,3,4,5];
     array[index] = element * 2;
  }
 
-//  function triple(element, index, array){
-//     array[index] = element * 3; 
-// }
+function triple(element, index, array){
+    array[index] = element * 3; 
+}
 
 console.log(double);
+
+// .map() = accepts a callback and applies that function
+//          to each elements of an array, then return a new array.
+
+const numb= [1,2,3,4,5,6];
+
+const squa = numb.map(cube);
+
+console.log(squa);
+
+function square(element){
+    return Math.pow(element,2);
+}
+
+function cube(element){
+    return Math.pow(element,3);
+}
+
