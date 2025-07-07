@@ -89,6 +89,54 @@ class Fish extends Animal{
     name = "fish";
 }
 
-const Rabbit = new Rabbit();
+const rabbit = new Rabbit();
 
-console.log(Rabbit.alive);
+console.log(rabbit.alive);
+
+
+// super = keyword is used in classes to call the constructor or 
+//           access the properties and methods pf parent
+// this = this object
+// super = the parent
+
+
+class Shape{
+    constructor(color){
+        this.color = color;
+    }
+
+    print(){
+        console.log(this.color);
+    }
+}
+
+class Square extends Shape{
+    constructor(sides,color){
+        super(color);
+        this.sides = sides;
+    }
+
+    sq(){
+        console.log(`Shape is Square.`)
+        super.print();
+    }
+}
+
+class Circle extends Shape{
+    constructor(sides, color){
+        super(color);
+        this.sides = sides;
+    }
+
+    ra(){
+        console.log(`Shape is Circle.`)
+        super.print();
+    }
+}
+
+const square = new Square(5, "Yellow");
+const circle = new Circle(7, "Orange");
+
+square.sq();
+circle.ra();
+
