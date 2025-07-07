@@ -64,3 +64,31 @@ console.log(MathUtil.getDiameter(19));
 console.log(MathUtil.getcircumferenece(23));
 console.log(MathUtil.getArea(34));
 
+// Inhertiance = allow a new class to inherit
+//              properties and methods from 
+//              an existing class
+// helps with code reusability
+
+class Animal {
+    alive = true;
+
+    eat(){
+        console.log(`This ${this.name} is eating`);
+    }
+
+    sleep(){
+        console.log(`This ${this.name} is sleeping`);
+    }
+}
+
+class Rabbit extends Animal{
+    name = "Rabbit";
+}
+
+class Fish extends Animal{
+    name = "fish";
+}
+
+const Rabbit = new Rabbit();
+
+console.log(Rabbit.alive);
