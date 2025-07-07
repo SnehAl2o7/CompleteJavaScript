@@ -37,3 +37,30 @@ class Poducts{
         console.log(`Print the product is $(name)`)
     }
 }
+
+//static = keyword that defines properties or methods that belong to
+//          a class itself rather then the objects created from that class.
+
+class MathUtil{
+    static PI = 3.14;
+
+    static getDiameter(radius){
+        return radius*2;
+    }
+    static getcircumferenece(radius){
+        return 2*this.PI*radius;
+    }
+
+    static getArea(radius){
+        return this.PI * radius ** 2;
+    }
+
+}
+
+const MathUtil1 = new MathUtil();
+
+console.log(MathUtil.PI);
+console.log(MathUtil.getDiameter(19));
+console.log(MathUtil.getcircumferenece(23));
+console.log(MathUtil.getArea(34));
+
