@@ -31,6 +31,25 @@
 
 ---
 
+-----------------------------------------------------------------------------------------------------------------------------
+
+## JavaScript Use Cases
+Feature/Area	Use in Project	Related Concept
+Dynamic UI	Real-time updates with event listeners	DOM Manipulation
+Async Operations	API calls and async user flows	Async/Await, Promises
+Form Validation	Input sanitation and alerts	Conditionals, Regex
+Storage	Saving preferences/settings	LocalStorage, JSON
+Modular Code	Reusable functions/modules	ES6 Modules, Functions
+
+📦 Tech Stack
+Language: JavaScript (ES6+)
+
+Bundler: Webpack / Parcel (optional)
+
+Testing: Jest / Mocha (optional)
+
+UI: HTML/CSS or any UI lib (React/Vue can be modularly added)
+
 ## 📐 Flow Diagram
 
 ```mermaid
