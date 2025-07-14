@@ -42,15 +42,41 @@ for(let i = 0; i < 10000000000;i++){
 console.timeEnd("test");
 
 
-function loaddata(){
+function loaddlata(){
     console.time("loacaldata");
-    for(let i = 0; i< 10000000000;i++){
+    for(let i = 0; i< 10000;i++){
         //pretend to load some data
 
     }
 
-    console.timeEnd("loacldata");
+    console.timeEnd("loacaldata");
 }
+
+loaddlata();
+
+
+/* 
+using various things format currency
+
+.toLocaleString() = returns a string with a languae
+                    sensitive representation of a number
+
+Intl.NumberFormat()
+
+number.toLocaleString("lacale", {options});
+
+locale = specify the language (undefined = default set in browser)
+options = object with formatting options
+
+*/
+
+let number = 123456.678;
+
+// number = number.toLocaleString("de-DE");
+
+
+number = number.toLocaleString("hi-IN", {style: "currency", currency: "USD"});
+console.log(number);
 
 
 
