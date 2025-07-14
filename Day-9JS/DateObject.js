@@ -41,3 +41,18 @@ function increment(){
 }
 
 increment();
+
+
+function Counter(){
+    let cnt = 0;
+    function increment(){
+        let cnt = 0;
+    cnt++;
+
+    console.log(`Count increased to ${cnt}`);
+}
+
+increment();
+
+console.log(cnt) 
+}
